@@ -1,0 +1,123 @@
+WARNING 2021-05-22 15:20:31,667 base 152 Not Found: /
+WARNING 2021-05-22 15:20:31,668 basehttp 124 "GET / HTTP/1.1" 404 2018
+WARNING 2021-05-22 15:20:31,770 base 152 Not Found: /favicon.ico
+WARNING 2021-05-22 15:20:31,771 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2069
+WARNING 2021-05-22 15:20:36,644 base 152 Not Found: /
+WARNING 2021-05-22 15:20:36,644 basehttp 124 "GET / HTTP/1.1" 404 2018
+INFO 2021-05-22 15:20:46,447 urls 30 info: ~~
+WARNING 2021-05-22 15:20:46,448 urls 31 warning: ~~
+INFO 2021-05-22 15:20:46,448 basehttp 124 "GET /log/ HTTP/1.1" 200 3
+WARNING 2021-05-22 15:21:24,113 base 152 Not Found: /hie/
+WARNING 2021-05-22 15:21:24,114 basehttp 124 "GET /hie/ HTTP/1.1" 404 2048
+WARNING 2021-05-22 15:39:32,602 base 152 Not Found: /
+WARNING 2021-05-22 15:39:32,603 basehttp 124 "GET / HTTP/1.1" 404 2018
+WARNING 2021-05-22 15:39:52,861 base 152 Not Found: /index/
+WARNING 2021-05-22 15:39:52,862 basehttp 124 "GET /index/ HTTP/1.1" 404 2054
+WARNING 2021-05-22 15:40:03,288 base 152 Not Found: /index.html
+WARNING 2021-05-22 15:40:03,288 basehttp 124 "GET /index.html HTTP/1.1" 404 2066
+INFO 2021-05-22 15:41:10,537 basehttp 124 "GET /static/index.html HTTP/1.1" 200 30009
+INFO 2021-05-22 15:41:10,602 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2021-05-22 15:41:10,604 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-05-22 15:41:10,607 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-05-22 15:41:10,609 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2021-05-22 15:41:10,616 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-05-22 15:41:10,622 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-05-22 15:41:10,625 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-05-22 15:41:10,628 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2021-05-22 15:41:10,628 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1388
+INFO 2021-05-22 15:41:10,638 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-05-22 15:41:10,641 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-05-22 15:41:10,644 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-05-22 15:41:10,644 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-05-22 15:41:10,647 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-05-22 15:41:10,650 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-05-22 15:41:10,652 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-05-22 15:41:10,653 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-05-22 15:41:10,655 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-05-22 15:41:10,657 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-05-22 15:41:10,659 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-05-22 15:41:10,660 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-05-22 15:41:10,666 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-05-22 15:41:10,669 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-05-22 15:41:10,671 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-05-22 15:41:10,672 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-05-22 15:41:10,702 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2021-05-22 15:41:24,535 base 152 Not Found: /carts/
+WARNING 2021-05-22 15:41:24,535 basehttp 124 "GET /carts/ HTTP/1.1" 404 2054
+INFO 2021-05-22 15:41:29,487 basehttp 124 "GET /static/user_center_order.html HTTP/1.1" 200 5814
+INFO 2021-05-22 15:41:29,528 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-05-22 15:41:29,532 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-05-22 15:41:29,537 basehttp 124 "GET /static/js/user_center_order.js HTTP/1.1" 200 2046
+INFO 2021-05-22 15:41:29,617 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-05-22 15:41:30,744 basehttp 124 "GET /static/cart.html HTTP/1.1" 200 5000
+INFO 2021-05-22 15:41:30,780 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 200 8354
+WARNING 2021-05-22 15:41:31,825 base 152 Not Found: /info/
+WARNING 2021-05-22 15:41:31,825 basehttp 124 "GET /info/ HTTP/1.1" 404 2051
+WARNING 2021-05-22 15:41:35,832 base 152 Not Found: /register/
+WARNING 2021-05-22 15:41:35,832 basehttp 124 "GET /register/ HTTP/1.1" 404 2063
+WARNING 2021-05-22 15:41:38,929 base 152 Not Found: /login/
+WARNING 2021-05-22 15:41:38,929 basehttp 124 "GET /login/ HTTP/1.1" 404 2054
+WARNING 2021-05-22 15:42:08,913 base 152 Not Found: /login/
+WARNING 2021-05-22 15:42:08,914 basehttp 124 "GET /login/ HTTP/1.1" 404 2054
+WARNING 2021-05-22 15:43:25,277 basehttp 124 "GET /static/login HTTP/1.1" 404 1628
+INFO 2021-05-22 15:43:42,690 basehttp 124 "GET /static/login.html HTTP/1.1" 200 2676
+INFO 2021-05-22 15:43:42,733 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2021-05-22 15:43:42,740 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:43:42,745 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:43:42,747 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:43:42,750 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:43:42,751 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2021-05-22 15:43:42,755 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-05-22 15:43:42,757 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2021-05-22 15:43:42,788 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2021-05-22 15:43:42,792 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-05-22 15:43:42,793 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2021-05-22 15:46:11,483 base 152 Not Found: /static
+WARNING 2021-05-22 15:46:11,484 basehttp 124 "GET /static HTTP/1.1" 404 2054
+WARNING 2021-05-22 15:46:18,958 base 152 Not Found: /staticindex.html
+WARNING 2021-05-22 15:46:18,959 basehttp 124 "GET /staticindex.html HTTP/1.1" 404 2084
+INFO 2021-05-22 15:46:32,633 basehttp 124 "GET /static/index.html HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,698 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,700 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,701 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,702 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,706 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,713 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,718 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,723 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,724 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,727 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,729 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,731 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,735 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,737 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,738 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,748 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,749 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,755 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,757 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,763 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,770 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,773 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,774 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,777 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,784 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:32,789 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:36,709 basehttp 124 "GET /static/login.html HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:36,738 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:36,759 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:36,786 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:36,787 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:36,791 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:41,565 basehttp 124 "GET /static/register.html HTTP/1.1" 200 3281
+INFO 2021-05-22 15:46:41,605 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-05-22 15:46:41,609 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 7825
+INFO 2021-05-22 15:46:41,613 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-05-22 15:46:41,616 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-05-22 15:46:46,295 basehttp 124 "GET /static/cart.html HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:46,336 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:47,669 basehttp 124 "GET /static/user_center_order.html HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:47,702 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:47,706 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:47,712 basehttp 124 "GET /static/js/user_center_order.js HTTP/1.1" 304 0
+INFO 2021-05-22 15:46:47,766 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 304 0
