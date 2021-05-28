@@ -58,6 +58,7 @@ var vm = new Vue({
         },
         // 检查用户名
         check_username: function () {
+            // alert("welcome to hei_mall")
             var re = /^[a-zA-Z0-9_-]{5,20}$/;
             if (re.test(this.username)) {
                 this.error_name = false;
@@ -70,6 +71,7 @@ var vm = new Vue({
         },
         // 检查密码
         check_password: function () {
+            // alert('p1')
             var re = /^[0-9A-Za-z]{8,20}$/;
             if (re.test(this.password)) {
                 this.error_password = false;
@@ -79,6 +81,7 @@ var vm = new Vue({
         },
         // 确认密码
         check_password2: function () {
+            // alert('p2')
             if (this.password != this.password2) {
                 this.error_check_password = true;
             } else {
@@ -87,12 +90,13 @@ var vm = new Vue({
         },
         // 检查手机号
         check_mobile: function () {
+            // alert('m')
             var re = /^1[345789]\d{9}$/;
             if (re.test(this.mobile)) {
-                this.error_phone = false;
+                this.error_mobile = false;
             } else {
                 this.error_mobile_message = '您输入的手机号格式不正确';
-                this.error_phone = true;
+                this.error_mobile = true;
             }
 
         },
