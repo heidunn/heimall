@@ -192,3 +192,9 @@ LOGGING = {
         },
     }
 }
+
+
+# 通过提供一个值给 AUTH_USER_MODEL
+# 指向自定义的模型， Django中允许覆盖默认的User模型
+# AUTH_USER_MODEL = 子应用名.模型名
+AUTH_USER_MODEL = 'users.User'
