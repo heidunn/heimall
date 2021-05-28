@@ -3,10 +3,12 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>美多商城-注册</title>
-	<link rel="stylesheet" type="text/css" href="../static/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="../static/css/main.css">
+	<link rel="stylesheet" type="text/css" href="{{ static('css/reset.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ static('css/main.css') }}">
+    <script type="text/javascript" src="{{ static('js/vue-2.5.16.js') }}"></script>
 </head>
 <body>
+<div id="app">
 	<div class="register_con">
 		<div class="l_con fl">
 			<a href="../static/index.html" class="reg_logo"><img src="../static/images/logo.png"></a>
@@ -24,8 +26,8 @@
 				<ul>
 					<li>
 						<label>用户名:</label>
-						<input type="text" name="username" id="user_name">
-						<span class="error_tip">请输入5-20个字符的用户</span>
+						<input type="text" name="username" id="user_name" v-model="username">
+						<span class="error_tip" v-show="error_name">[[ error_name_message ]]</span>
 					</li>					
 					<li>
 						<label>密码:</label>
@@ -69,7 +71,7 @@
 		</div>
 
 	</div>
-
+</div>
 	<div class="footer no-mp">
 		<div class="foot_link">
 			<a href="#">关于我们</a>
@@ -83,8 +85,8 @@
 		<p>CopyRight © 2016 北京美多商业股份有限公司 All Rights Reserved</p>
 		<p>电话：010-****888    京ICP备*******8号</p>
 	</div>
-	<script type="text/javascript" src="../static/js/host.js"></script>
-	<script type="text/javascript" src="../static/js/common.js"></script>
-	<script type="text/javascript" src="../static/js/register.js"></script>
+	<script type="text/javascript" src="{{ static('js/host.js') }}"></script>
+	<script type="text/javascript" src="{{ static('js/common.js') }}"></script>
+	<script type="text/javascript" src="{{ static('js/register.js') }}"></script>
 </body>
 </html>
